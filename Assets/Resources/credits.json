@@ -1,0 +1,38 @@
+﻿{
+    "teams" : [
+        {
+            "career" : "2d Artist",
+            "names" : [
+                "Bruna Barbosa Guimaraes",
+                "Kamila Freitas da Silva",
+                "Gabriel Nalin Gibin"
+            ] 
+        },
+        {
+            "career" : "Programming",
+            "names" : [
+                "Vinicius Guimaraes",
+                "João Fernado"
+            ] 
+        },
+        {
+            "career" : "Writers",
+            "names" : [
+                "Giovani Lofredo de Nardo"
+            ] 
+        },
+        {
+            "career" : "Beta Testers",
+            "names" : [
+                "Lucas Alves dos Santos",
+                "Elson Manzalli da Silva"
+            ] 
+        },
+        {
+            "career" : "Special Thanks",
+            "names" : [
+                "Faculdade de Tecnologia de Americana"
+            ] 
+        }
+    ]
+}
