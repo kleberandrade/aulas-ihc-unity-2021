@@ -7,7 +7,7 @@ public class LoadCharacter : MonoBehaviour
 
     private void Start()
     {
-        int index = PlayerPrefs.GetInt("CharacterIndex");
+        int index = PlayerPrefs.GetInt("CharacterIndex", 0);
         GameObject prefab = m_Characters[index];
         GameObject character = Instantiate(prefab,
             m_SpawnPoint.position,
