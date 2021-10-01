@@ -17,7 +17,7 @@ public class CharacterSelection : MonoBehaviour
     public void Select()
     {
         PlayerPrefs.SetInt("CharacterIndex", m_CharacterIndex);
-        SceneManager.LoadScene("Gameplay");
+        //SceneManager.LoadScene("Gameplay");
     }
 
     public void Next()
