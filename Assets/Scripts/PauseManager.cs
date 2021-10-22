@@ -28,7 +28,10 @@ public class PauseManager : MonoBehaviour
         resumeButton.onClick.AddListener(() => Hide());
 
         Button quitButton = m_Panel.transform.GetChild(1).GetChild(4).GetComponent<Button>();
-        quitButton.onClick.AddListener(() => SceneManager.LoadScene(m_QuitSceneName));
+        quitButton.onClick.AddListener(() => {
+            Hide();
+            SceneManager.LoadScene(m_QuitSceneName);
+        });
 
         m_Panel.SetActive(false);
     }
