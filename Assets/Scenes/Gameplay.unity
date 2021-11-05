@@ -460,14 +460,17 @@ MonoBehaviour:
   m_Dialogs:
   - name: Vinicius
     avatar: {fileID: 21300000, guid: 1714e530c504e4f4cae2394a4cb9df31, type: 3}
+    type: 0
     sentences:
     - Eai, tudo na boa?
   - name: Kleber
     avatar: {fileID: 21300000, guid: 53e4a31a799e740528230f6e34eea31d, type: 3}
+    type: 0
     sentences:
     - Na boa!
   - name: Vinicius
     avatar: {fileID: 21300000, guid: 1714e530c504e4f4cae2394a4cb9df31, type: 3}
+    type: 0
     sentences:
     - "N\xE3o enrola, vai querer o que?"
 --- !u!135 &18816161
@@ -11409,14 +11412,22 @@ MonoBehaviour:
   m_Dialogs:
   - name: Kleber Andrade
     avatar: {fileID: 21300000, guid: 53e4a31a799e740528230f6e34eea31d, type: 3}
+    type: 1
     sentences:
+    - Um item!
     - Ualll, vejo um item!
+    - Que coisa, um item novo!
+    - Achei mais um item!
   - name: Kleber Andrade
     avatar: {fileID: 21300000, guid: 53e4a31a799e740528230f6e34eea31d, type: 3}
+    type: 0
     sentences:
-    - "O que ser\xE1 qu\xE9?"
+    - O que tem ai dentro?
+    - Espero que seja uma arma!
+    - "Estou precisando muito, para matar o Drag\xE3o."
   - name: Kleber Andrade
     avatar: {fileID: 21300000, guid: 53e4a31a799e740528230f6e34eea31d, type: 3}
+    type: 0
     sentences:
     - "Ahhhhhh, \xE9 uma armadilha!!!"
 --- !u!1 &1760061267
@@ -14402,6 +14413,14 @@ PrefabInstance:
     - target: {fileID: 6715350581388373118, guid: d9070d0b891f24c49ba944232095e933, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501103456969043295, guid: d9070d0b891f24c49ba944232095e933, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501103456969043295, guid: d9070d0b891f24c49ba944232095e933, type: 3}
+      propertyPath: m_MultiplyLetterStep
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9070d0b891f24c49ba944232095e933, type: 3}
