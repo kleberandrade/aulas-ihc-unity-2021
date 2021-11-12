@@ -17,6 +17,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            SaveManager.Instance.m_Data.respawnPoint = transform.position;
+            SaveManager.Instance.Save();
+        }
+
         KeyboardControl();
         MouseControl();
     }

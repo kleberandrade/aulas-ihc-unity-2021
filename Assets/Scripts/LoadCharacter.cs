@@ -7,10 +7,19 @@ public class LoadCharacter : MonoBehaviour
 
     private void Start()
     {
+        var position = m_SpawnPoint.position;
+        if (SaveManager.Instance.Load())
+        {
+            position = SaveManager.Instance.m_Data.respawnPoint;
+        }
+
+
+        Debug.Log($"Respawn Position: {position}");
+
         int index = PlayerPrefs.GetInt("CharacterIndex", 0);
         GameObject prefab = m_Characters[index];
         GameObject character = Instantiate(prefab,
-            m_SpawnPoint.position,
+            position,
             m_SpawnPoint.rotation
         );
 
